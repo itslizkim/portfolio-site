@@ -1,5 +1,5 @@
 import React from 'react';
-import ResumePDF from '../images/tech_resume.pdf'
+import ResumePDF from '../images/resume.pdf'
 
 const ResumeComponent = () => {
     return (

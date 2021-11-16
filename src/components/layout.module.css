@@ -1,7 +1,14 @@
+
+
 .container {
     margin: auto;
-    max-width: 500px;
     font-family: sans-serif;
+}
+
+.main{
+    background-image: url('../images/kokee_mountain_top.jpeg');
+    flex-wrap: wrap;
+
 }
 
 .heading {
@@ -12,12 +19,15 @@
     display:flex;
     list-style: none;
     padding-left: 0;
+    
 }
 
 .nav-link-item{
     padding-right: 2rem;
+    text-decoration: none;
 }
 
 .nav-link-text{
     color: black;
+    
 }
