@@ -13,7 +13,7 @@ const IndexPage = () => {
         style={{
           borderRadius: `10%`,
           width: `300px`,
-          position: `right`
+          position: 'relative',
         }}
       />
 

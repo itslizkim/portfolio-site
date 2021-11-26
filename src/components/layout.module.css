@@ -3,31 +3,46 @@
 .container {
     margin: auto;
     font-family: sans-serif;
-}
-
-.main{
-    background-image: url('../images/kokee_mountain_top.jpeg');
-    flex-wrap: wrap;
-
+    
 }
 
 .heading {
-    color: rgb(28, 74, 201);
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+    
+}
+.body{
+    position: static;
+    height: 125vh;
+    background-image: url('../images/road.jpeg');
+    background-size: cover;
+    margin-top: 80px;
+    
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-image: url('../images/kokee_mountain_bw.jpeg');
 }
 
 .nav-links {
-    display:flex;
+    display:inline-block;
+    /* float: right; */
     list-style: none;
     padding-left: 0;
-    
 }
 
 .nav-link-item{
     padding-right: 2rem;
     text-decoration: none;
+    
 }
 
 .nav-link-text{
-    color: black;
+    color: rgb(0, 246, 33);
     
 }
