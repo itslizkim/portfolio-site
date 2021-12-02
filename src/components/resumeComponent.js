@@ -9,9 +9,6 @@ const ResumeComponent = () => {
                 type='application/pdf'
                 title='Liz Kim Resume 2021'
                 aria-label='Liz Kim Tech Resume'
-                style={{border: '2', color: 'black'}}
-                width='670'
-                height='950'
             />
         </div>
     )
