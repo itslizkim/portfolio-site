@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&family=Ubuntu+Mono:wght@700&display=swap');
 
 .container {
     margin: auto;
@@ -8,14 +8,14 @@
 
 .heading {
     flex-wrap: wrap;
-    color: rgb(0, 0, 0);
+    font-family: 'Rock 3D', cursive;
+    color: #5e3023;
     
 }
 .body{
     position: static;
     height: 125vh;
-    background-image: url('../images/road.jpeg');
-    background-size: cover;
+    background-color: #f3e9dc;
     /* top: 0;
     left: 0;
     right: 0; */
@@ -28,7 +28,7 @@
     left: 0;
     right: 0;
     height: 80px;
-    background-image: url('../images/kokee_mountain_bw.jpeg');
+    background-color: #134231;
 }
 
 .nav-links {
@@ -45,6 +45,7 @@
 }
 
 .nav-link-text{
-    color: rgb(0, 246, 33);
-    
+    font-family: 'Ubuntu Mono', monospace;
+    color: #dab49d;
+    text-decoration: none;
 }
